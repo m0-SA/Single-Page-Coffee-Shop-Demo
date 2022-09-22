@@ -17,10 +17,9 @@
   background-color: var(--color-pallete4);
 
   border-radius: 20px;
-  border-style:solid;
-  border-width: 1.5px;
-  border-color: var(--color-pallete1);
-  
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: var(--color-pallete4);
 
   text-align: right;
 }
@@ -44,11 +43,15 @@
   padding-left: 10px;
 
   border-radius: 20px;
-  border-style:solid;
-  border-width: 1.5px;
-  border-color: var(--color-pallete1);
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: var(--color-pallete4);
 
   text-align: left;
+}
+
+.imageflip {
+  transform: scaleX(-1);
 }
 
 #button {
@@ -71,7 +74,6 @@
   .app__aboutus-content_history p {
     margin: 4rem 0;
   }
-  
 }
 
 @media screen and (max-width: 900px) {
@@ -82,7 +84,6 @@
   .app__aboutus-content_knife {
     margin: 4rem 0;
   }
-  
 }
 
 @media screen and (max-width: 650px) {
